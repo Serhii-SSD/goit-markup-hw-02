@@ -58,7 +58,6 @@ button:focus {
   letter-spacing: 0.02em;
   font-size: 56px;
   color: #ffffff;
-  line-height: 1.07143;
 }
 .services-title {
   color: #2e2f42;
@@ -78,6 +77,7 @@ button:focus {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .our-team {
   font-weight: 400;
@@ -107,6 +107,7 @@ button:focus {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .portfolio-section {
   background-color: #ffffff;
@@ -166,7 +167,7 @@ body {
 }
 .footer-logo {
   font-family: 'Raleway', sans-serif;
-  color: #4d5ae5;
+  color: #f4f4fd;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -174,11 +175,11 @@ body {
   text-transform: uppercase;
 }
 .footer-logo-accent {
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
 .footer-description {
   color: #fefeff;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
 }
