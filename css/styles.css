@@ -115,7 +115,8 @@ font-size: 16px;
 line-height: 1.5;
 }
 body {
-  font-family: "Roboto", sans-serif; color: #434455; font-size: 16px; font-style: regular;
+ background-color: #FFFFFF;
+  font-family: "Roboto", sans-serif;  color: #434455; font-size: 16px; font-style: regular;
 }
 .nav-logo {
   font-style: bold; color: #F4F4FD;font-weight: 700;
