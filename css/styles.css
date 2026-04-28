@@ -152,7 +152,7 @@ body {
 }
 .nav-logo {
   font-family: 'Raleway', sans-serif;
-  color: #2e2f42;
+  color: #4d5ae5;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -160,14 +160,14 @@ body {
   text-transform: uppercase;
 }
 .logo-accent {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 .footer {
   background-color: #2e2f42;
 }
 .footer-logo {
   font-family: 'Raleway', sans-serif;
-  color: #f4f4fd;
+  color: #4d5ae5;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -175,10 +175,10 @@ body {
   text-transform: uppercase;
 }
 .footer-logo-accent {
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 .footer-description {
-  color: #fefeff;
+  color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
