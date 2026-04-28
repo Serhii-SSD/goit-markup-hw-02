@@ -10,67 +10,98 @@ button {
   font-size: 16px;
   background-color: #4d5ae5;
   color: #ffffff;
-  border: none;
-  padding: 10px 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+button:hover,
+button:focus {
+  background-color: #404bbf;
 }
 .nav-list {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 500;
 }
-button:hover {
-  background-color: #404bbf;
-}
 
 .nav-link {
   color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .nav-link:hover {
   color: #404bbf;
 }
-.nav-link:active {
+.nav-link:focus {
   color: #404bbf;
 }
 .contacts {
+  font-style: normal;
   color: #434455;
   font-size: 16px;
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
-.mail-link:hover,
-.tel-link:hover {
+.contacts-link:hover,
+.contacts-link:focus {
   color: #404bbf;
+}
+.main-section {
+  background-color: #2e2f42;
+}
+.main-title {
+  text-align: center;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  font-size: 56px;
+  color: #ffffff;
+  line-height: 1.07143;
 }
 .services-title {
   color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11111;
+  letter-spacing: 0.02em;
 }
 .services-subtitle {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .services-description {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
 }
+.our-team {
+  font-weight: 400;
+  font-size: 36px;
+  color: #2e2f42;
+  line-height: 1.5;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+.portrets {
+  background-color: #ffffff;
+}
 .team {
   background-color: #f4f4fd;
 }
-.our-team {
-  font-weight: 400;
-  font-size: 16px;
-  color: #2e2f42;
-  line-height: 1.5;
-}
+
 .our-team-member {
   color: #2e2f42;
   font-size: 20px;
   line-height: 1.2;
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
 .team-description {
   color: #434455;
@@ -84,41 +115,29 @@ button:hover {
   color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 .portfolio-title {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .portfolio-description {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.sronly {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
-}
 a {
   color: currentColor;
 }
-.main-section {
-  background-color: #2e2f42;
-}
-.main-title {
-  font-size: 56px;
-  color: #ffffff;
-  line-height: 1.07143;
-}
+
 address {
   font-weight: 400;
   font-size: 16px;
@@ -131,22 +150,35 @@ body {
   font-size: 16px;
 }
 .nav-logo {
-  color: #f4f4fd;
+  font-family: 'Raleway', sans-serif;
+  color: #2e2f42;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-accent {
+  color: #4d5ae5;
 }
 .footer {
   background-color: #2e2f42;
 }
 .footer-logo {
-  color: #2e2f42;
+  font-family: 'Raleway', sans-serif;
+  color: #4d5ae5;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.footer-logo-accent {
+  color: #f4f4fd;
 }
 .footer-description {
-  color: #f4f4fd;
+  color: #fefeff;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em
 }
